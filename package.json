@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
+  },
+
+  "scripts": {
+    "start": "node vs-hack/server.js"
+  },
+  "engines": {
+"node": "20.17.0"
+  }
+}
