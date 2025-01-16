@@ -9,7 +9,7 @@ const port = 3000;
 app.use(express.text()); // Use `express.text()` middleware to handle raw text
 
 // Connect to MongoDB using Mongoose
-mongoose.connect('mongodb+srv://manish9211:MaNiSh9211@cluster9211.be3bfds.mongodb.net/vs-hack')
+mongoose.connect('/vs-hack')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('MongoDB connection error:', err));
 
